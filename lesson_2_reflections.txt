@@ -13,3 +13,7 @@ By adding only the file(s) from the working directory to the staging area per lo
 # What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Maybe you want to test out an experimental change, or play with a new feature, or different layout. By using branches you can do this without messing up the master branch.
+
+# How do the diagrams help you visualize the branch structure?
+
+The diagrams allow you to see at what commit a branch starts. This helps in understanding the parent/child relationship between commits within the branches of a repository. And how a commit on one branch is not necessarily related, or can be traced back, to a commit on another branch.
