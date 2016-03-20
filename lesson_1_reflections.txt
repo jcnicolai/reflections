@@ -1,0 +1,42 @@
+# How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff quick identified the text differences between the two files
+bringing focus to the differences
+so it was easier to find the potential mistake/problem
+
+# How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+easier to test code changes
+easier to collaborate
+easier to return back to a place in the code before a change was made
+easier to improve or try new code knowing you can go back to a working version
+
+# What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros
+ allows logical commit points
+ allows change notes
+ makes comparing different versions easier
+
+cons
+ could commit incomplete lines of code
+ could commit at an illogical point
+ would commit without change notes
+ would make comparing different versions more difficult
+
+ # Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+
+ They are different types of version control systems. Git, is designed more for program files which often have interdependencies with other files. So it makes sense to keep version control on all the files in the repository so. Whereas, Google Docs is designed more for maintaining one-off or unrelated files.
+
+ # How can you use the commands git log and git diff to view the history of files?
+
+ use git log to find the commit ids of the version you want, and the version prior
+ then use git diff to identify the actual differences in the code between the two files by showing what was added and/or deleted
+
+ # How might using version control make you more confident to make changes that could break something?
+
+ Being able to go back to previous commits, and compare differences between two commits helps you identify and correct bugs that may creep into the code. So break away, play, and learn what happens.
+
+ # Now that you have your workspace set up, what do you want to try using Git for?
+
+ To conquer the world... or maybe just rediscover how much I enjoy programming.
