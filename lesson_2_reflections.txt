@@ -9,3 +9,7 @@ The staging area is a subset of files in the working directory that you want to 
 # How can you use the staging area to make sure you have one commit per logical change?
 
 By adding only the file(s) from the working directory to the staging area per logical change, you are not commiting all the files in the working directory that you may have modified. You can compare differences in the working directory and staging areas with 'git diff' and compare the staging area to the repository HEAD with 'git diff --staged'.
+
+# What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Maybe you want to test out an experimental change, or play with a new feature, or different layout. By using branches you can do this without messing up the master branch.
