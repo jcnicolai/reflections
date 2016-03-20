@@ -17,3 +17,7 @@ Maybe you want to test out an experimental change, or play with a new feature, o
 # How do the diagrams help you visualize the branch structure?
 
 The diagrams allow you to see at what commit a branch starts. This helps in understanding the parent/child relationship between commits within the branches of a repository. And how a commit on one branch is not necessarily related, or can be traced back, to a commit on another branch.
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+By merging two branches it combines all the changes between the two branches. The commit after merging two branches is represented with two arrows, one to each branch, because the merged commit has two parents.
