@@ -21,3 +21,11 @@ The diagrams allow you to see at what commit a branch starts. This helps in unde
 # What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 By merging two branches it combines all the changes between the two branches. The commit after merging two branches is represented with two arrows, one to each branch, because the merged commit has two parents.
+
+# What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros - automatic merging of branches is much quicker, and less likely to introduce errors in the merging process
+
+Cons - sometimes Git will not be able to accurately infer the code that should be used in the merge commit so a manual merge is required.
+
+Even if a mannual merge is needed for Git to finish the merge it will still help by identifying the areas of code that are in conflict. And that is very helpful.
