@@ -18,3 +18,8 @@ Branches create a child commit off of it's parent commit.
 Use forks to clone another user's repository on GitHub so you can make your own modifications.
 Use clone to make a copy of a local or remote repository.
 Use branch to introduce a new commit point, seperate from the master branch.
+
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It insures you are working with the most recent commits from the remote, before you start introducing changes.
+
