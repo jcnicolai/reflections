@@ -4,3 +4,7 @@ flexibility to work from multi locations
 eaiser access for others to collaborate on the repository
 provides failsafe should something happen to your local machine, your repository would not be lost
 
+# Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+  with your remote repository?
+
+I'll guess that it's mostly to avoid unwanted changes to the remote repository.
