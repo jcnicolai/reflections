@@ -23,3 +23,12 @@ Use branch to introduce a new commit point, seperate from the master branch.
 
 It insures you are working with the most recent commits from the remote, before you start introducing changes.
 
+# How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Share directories/files locally or remotely, and/or transfer files back and forth between collaborates.
+
+Beyond the learning curve, everything would be harder.
+Git/GitHub (or similar version control system) is definitely easier/better if the project is to have any life
+beyond it's creation. The learning curve is really the only hard part. And that just takes practice.
+Managing a collaborative dev project without a version control system is like riding a bicycle on the highway,
+in the middle lane... Good luck!
