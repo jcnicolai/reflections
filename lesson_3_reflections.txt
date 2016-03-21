@@ -8,3 +8,13 @@ provides failsafe should something happen to your local machine, your repository
   with your remote repository?
 
 I'll guess that it's mostly to avoid unwanted changes to the remote repository.
+
+# Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are clones only visible on GitHub.
+Clones are copies of local or remote repositories.
+Branches create a child commit off of it's parent commit.
+
+Use forks to clone another user's repository on GitHub so you can make your own modifications.
+Use clone to make a copy of a local or remote repository.
+Use branch to introduce a new commit point, seperate from the master branch.
