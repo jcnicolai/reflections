@@ -1,11 +1,3 @@
-Practice learning for GitHub
-  - learning how to make changes in my local repository on a new branch
-  - push them to GitHub, see them on GitHub
-  - 
-  - 
-
-
-
 # When would you want to use a remote repository rather than keeping all your work local?
 
 flexibility to work from multi locations
